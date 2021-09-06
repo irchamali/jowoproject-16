@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Name:    Ion Auth
  * Author:  Ben Edmunds
@@ -19,7 +20,7 @@
  * @link       http://github.com/benedmunds/CodeIgniter-Ion-Auth
  * @filesource
  */
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -130,7 +131,7 @@ $config['argon2_admin_params']		= [
 | The library will fail for empty password or password size above 4096 bytes.
 | This is an arbitrary (long) value to protect against DOS attack.
 */
-$config['site_title']                 = "Aplikasi Ujian Online";       // Site Title, example.com
+$config['site_title']                 = "Sistem Evaluasi Unusia";       // Site Title, example.com
 $config['admin_email']                = "admin@example.com"; // Admin Email, admin@example.com
 $config['default_group']              = 'members';           // Default group, use name
 $config['admin_group']                = 'admin';             // Default administrators group, use name
